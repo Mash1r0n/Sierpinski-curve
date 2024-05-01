@@ -161,8 +161,8 @@ int main()
     SetConsoleOutputCP(1251);
 
     int a;
+    cout << "Введіть порядок кривої серпінського від 0 до 6: ";
     cin >> a;
-    cout << "Криві Серпінського від 0 до 6 порядку";
 
     SierpinskiCurve(500, 300, a);
 
